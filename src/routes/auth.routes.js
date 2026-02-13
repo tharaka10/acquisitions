@@ -1,6 +1,5 @@
 import express from 'express';
 import { signup, signin, signout } from '#controllers/auth.controller.js';
-import { formatValidationError } from '#utils/format.js';
 
 const router = express.Router();
 

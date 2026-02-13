@@ -1,12 +1,11 @@
 import express from 'express';
 import logger from '#config/logger.js';
-import helmet from "helmet";
+import helmet from 'helmet';
 import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
 import securityMiddleware from '#middleware/security.middleware.js';
-import { users } from '#models/user.model.js';
 import usersRoutes from '#routes/users.routes.js';
 
 const app = express();
@@ -41,6 +40,6 @@ app.use('/api/users', usersRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Route Not Found'});
-})
+});
 
 export default app;

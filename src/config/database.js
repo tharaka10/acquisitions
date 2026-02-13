@@ -10,16 +10,16 @@ let db;
 let sql;
 
 if (process.env.NODE_ENV === 'development') {
-    // Use standard PostgreSQL driver for local development
-    const pool = new Pool({
-        connectionString: process.env.DATABASE_URL,
-    });
-    db = drizzlePg(pool);
-    sql = pool;
+  // Use standard PostgreSQL driver for local development
+  const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+  });
+  db = drizzlePg(pool);
+  sql = pool;
 } else {
-    // Use Neon serverless for production
-    sql = neon(process.env.DATABASE_URL);
-    db = drizzleNeon(sql);
+  // Use Neon serverless for production
+  sql = neon(process.env.DATABASE_URL);
+  db = drizzleNeon(sql);
 }
 
 export { db, sql };
