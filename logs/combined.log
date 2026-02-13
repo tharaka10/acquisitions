@@ -326,3 +326,19 @@
 {"level":"info","message":"::1 - - [13/Feb/2026:15:54:49 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [13/Feb/2026:15:54:51 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [13/Feb/2026:15:55:08 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user with id 2","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:58:43 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 203 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User admintharaka@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admintharaka@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:16:02:36 +0000] \"POST /api/auth/sign-up?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 201 114 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user with id 3","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:16:03:26 +0000] \"GET /api/users/3?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 206 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user with id 1","service":"acquisitions-api"}
+{"level":"info","message":"User 1 deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:16:04:21 +0000] \"DELETE /api/users/1?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Feb/2026:18:27:07 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Feb/2026:18:27:07 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Feb/2026:18:27:07 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Feb/2026:18:27:41 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Feb/2026:18:27:41 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Feb/2026:18:27:41 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
