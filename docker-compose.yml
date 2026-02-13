@@ -1,0 +1,10 @@
+# Default Docker Compose file - extends development configuration
+# This allows you to run 'docker compose up' without specifying a file
+
+include:
+  - docker-compose.dev.yml
+
+# You can override specific services here if needed
+# services:
+#   app:
+#     # Override development settings here
