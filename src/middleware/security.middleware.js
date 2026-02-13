@@ -19,7 +19,7 @@ const securityMiddleware = async (req, res, next) => {
                 message = 'User request limit exceeded (10 per minute). Slow down.'
                 break;
             case 'guest':
-                limit = 20
+                limit = 5
                 message = 'Guest request limit exceeded (5 per minute). Slow down.'
                 break;
 
@@ -27,6 +27,7 @@ const securityMiddleware = async (req, res, next) => {
 
         const client = aj.withRule(slidingWindow({ mode: 'LIVE', interval: 60, max: limit, name: `${role}-rate-limit` }));
         const decision = await client.protect(req);
+        
         if(decision.isDenied() && decision.reason.isBot()) {
             logger.warn('Bot request blocked', { ip: req.ip, userAgent: req.get('User-Agent'), path: req.path });
 

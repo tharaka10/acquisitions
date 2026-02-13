@@ -289,3 +289,40 @@
 {"level":"info","message":"User contacttharaka@gmail.com created successfully","service":"acquisitions-api"}
 {"level":"info","message":"User registered successfully: contacttharaka@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [13/Feb/2026:08:35:35 +0000] \"POST /api/auth/sign-up?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 201 111 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:13:30:50 +0000] \"GET /users HTTP/1.1\" 404 144 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:13:31:36 +0000] \"GET /api/users HTTP/1.1\" 200 363 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:36:14 +0000] \"GET /api/users/1 HTTP/1.1\" 401 61 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User contacttharaka@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: contacttharaka@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:38:41 +0000] \"POST /api/auth/sign-in?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 123 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:40:22 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:40:31 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:40:45 +0000] \"GET /api/users/1?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:41:23 +0000] \"GET /api/users/1?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:41:59 +0000] \"GET /api/users/1?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:42:06 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:42:56 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User contacttharaka@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: contacttharaka@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:43:23 +0000] \"POST /api/auth/sign-in?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 123 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:44:03 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:46:40 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:46:45 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User contacttharaka@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: contacttharaka@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:47:03 +0000] \"POST /api/auth/sign-in?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 123 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:48:14 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:48:30 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:50:01 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:51:00 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:51:04 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:51:48 +0000] \"GET /api/auth/sign-in?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:51:55 +0000] \"GET /api/auth/sign-in?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User contacttharaka@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: contacttharaka@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:52:03 +0000] \"POST /api/auth/sign-in?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 200 123 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:52:37 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:54:49 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:54:51 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Feb/2026:15:55:08 +0000] \"GET /api/users/2?email=ontact%40gmail.com&name=tharaka&password=123456 HTTP/1.1\" 401 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
