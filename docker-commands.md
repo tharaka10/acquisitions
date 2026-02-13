@@ -72,7 +72,7 @@ docker-compose -f docker-compose.dev.yml logs app
 ## 🌐 URLs (Development)
 
 - **API**: http://localhost:3000
-- **Health**: http://localhost:3000/health  
+- **Health**: http://localhost:3000/health
 - **Database**: localhost:5432
 - **Adminer**: http://localhost:8080 (with --profile tools)
 
